@@ -1,5 +1,5 @@
 %define upstream_name    Mojolicious
-%define upstream_version 1.22
+%define upstream_version 1.3
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -31,7 +31,7 @@ a new attempt at implementing this idea using state of the art technology.
 %make
 
 %check
-make test
+%make test
 
 %install
 %makeinstall_std
