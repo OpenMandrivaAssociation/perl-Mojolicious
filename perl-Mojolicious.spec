@@ -1,5 +1,5 @@
 %define upstream_name    Mojolicious
-%define upstream_version 1.43
+%define upstream_version 1.48
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
