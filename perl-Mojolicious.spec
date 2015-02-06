@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 Summary:	A next generation web framework for Perl
 License:	Artistic 2.0
 Group:		Development/Perl
