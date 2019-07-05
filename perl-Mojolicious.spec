@@ -38,6 +38,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %doc Changes LICENSE examples
 %{_bindir}/mojo
+%{_bindir}/morbo
 %{_bindir}/hypnotoad
 %{perl_vendorlib}/*
 %{_mandir}/man1/*
