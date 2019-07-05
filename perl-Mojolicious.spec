@@ -1,14 +1,14 @@
 %define upstream_name    Mojolicious
-%define upstream_version 1.43
+%define upstream_version 8.18
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 Summary:	A next generation web framework for Perl
 License:	Artistic 2.0
 Group:		Development/Perl
 URL:		http://mojolicious.org/
-Source0:	http://www.cpan.org/authors/id/K/KR/KRAIH/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SR/SRI/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -30,13 +30,10 @@ a new attempt at implementing this idea using state of the art technology.
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
-
-%check
-%make test
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc Changes LICENSE examples
