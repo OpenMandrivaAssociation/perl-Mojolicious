@@ -6,7 +6,7 @@ Release:	1
 Summary:	A next generation web framework for Perl
 License:	Artistic 2.0
 Group:		Development/Perl
-URL:		http://mojolicious.org/
+URL:		https://mojolicious.org/
 Source0:	https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-%{version}.tar.gz
 
 BuildRequires:	perl-devel
