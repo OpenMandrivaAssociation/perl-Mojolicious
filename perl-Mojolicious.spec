@@ -11,10 +11,16 @@ Source0:	https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-%{version}.ta
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
+BuildRequires:	perl(IO::Socket::SSL)
+BuildRequires:	perl(Sub::Util)
 BuildRequires:	perl(Test::Builder)
 BuildRequires:	perl(Test::Harness)
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(EV) >= 4.340.0
 BuildArch:	noarch
+Requires:	perl(IO::Socket::SSL)
+Requires:	perl(Sub::Util)
+Requires:	perl(EV) >= 4.340.0
 
 %files
 %doc Changes LICENSE examples
@@ -44,5 +50,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 %install
 %make_install
-
-
