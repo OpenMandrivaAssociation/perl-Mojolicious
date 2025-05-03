@@ -2,7 +2,7 @@
 
 Name:		perl-%{oname}
 Version:	9.39
-Release:	2
+Release:	3
 Summary:	A next generation web framework for Perl
 License:	Artistic 2.0
 Group:		Development/Perl
