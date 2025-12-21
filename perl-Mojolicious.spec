@@ -9,6 +9,7 @@ Group:		Development/Perl
 URL:		https://mojolicious.org/
 Source0:	https://cpan.metacpan.org/authors/id/S/SR/SRI/Mojolicious-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(IO::Socket::SSL)
