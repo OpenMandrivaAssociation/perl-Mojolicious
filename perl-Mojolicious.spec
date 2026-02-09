@@ -1,7 +1,7 @@
 %define oname    Mojolicious
 
 Name:		perl-%{oname}
-Version:	9.40
+Version:	9.42
 Release:	1
 Summary:	A next generation web framework for Perl
 License:	Artistic 2.0
