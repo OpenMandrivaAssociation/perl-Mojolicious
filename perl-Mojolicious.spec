@@ -43,7 +43,7 @@ techniques used are outdated now, the idea behind it is not. Mojolicious is
 a new attempt at implementing this idea using state of the art technology.
 
 %prep
-%autosetup -n Mojolicious-9.48
+%autosetup -n Mojolicious-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
